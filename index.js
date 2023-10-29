@@ -110,7 +110,7 @@ async function DebugMain(text) {
 }
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the backend of Code Converter");
+  res.send("Welcome to the backend of Text Generator");
 });
 
 app.listen(8080, async () => {
